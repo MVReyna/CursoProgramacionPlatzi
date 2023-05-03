@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+body {
+    font-family: 'Lilita One', cursive;
+    background-color: #3F3B6C;
+}
+
+#mascota {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    color: white;
+    font-size: 32px;
+}
+
+.subtitle {
+    color: white;
+    font-size: 20px;
+}
+
+.card {
+    display: flex;
+    gap: 10px;
+}
+
+.mokepon_card {
+    width: 180px;
+    height: 100px;
+    background: #624F82;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.mokepon_card img {
+    width: 80px;
+}
+
+input {
+    display: none;
+}
+
+#boton-mascota {
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    margin-top: 30px;
+}
